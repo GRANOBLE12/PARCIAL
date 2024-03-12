@@ -73,6 +73,8 @@ public class HelperValidacion {
         lscaracteres.add('=');
         lscaracteres.add(',');
         lscaracteres.add('@');
+        lscaracteres.add('´');
+        lscaracteres.add('\'');
 
         for (int j = 0; j < nombre.length(); j++) {
             boolean flag = Character.isLetter(nombre.charAt(j));
